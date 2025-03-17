@@ -29,10 +29,9 @@ int main() {
 		}
 
 		sph1.renderPolygons(&window);
-		//sph1.renderPositionsPoints(&window);
-
+		
 		window.display();
-
+		
 	}
 
 	return 0;
