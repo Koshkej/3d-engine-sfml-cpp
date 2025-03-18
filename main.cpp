@@ -1,8 +1,3 @@
-#include <iostream>
-#include <cmath>
-#include <numbers>
-#include <vector>
-#include "SFML/Graphics.hpp"
 #include "Sphere.h"
 
 int main() {
