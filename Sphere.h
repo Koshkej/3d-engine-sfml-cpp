@@ -7,6 +7,7 @@
 
 class Sphere {
 public:
+
     Sphere(sf::Vector2f position_, int radius_, int grain_)
         : position(position_), radiusX(radius_), radiusY(radius_), grain(grain_) {
         
@@ -60,6 +61,7 @@ public:
     }
 
 private:
+
     sf::Vector2f position;
     int radiusX, radiusY, grain;
 
