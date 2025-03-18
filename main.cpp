@@ -1,8 +1,9 @@
 #include "Sphere.h"
 
-// JUST EXAMPLE OF USE
+// JUST EXAMPLE
 
 int main() {
+    
     sf::RenderWindow window(sf::VideoMode(900, 900), "Sphere", sf::Style::Close);
     sf::Event event;
     Sphere sph1(sf::Vector2f(450, 450), 200, 32);
